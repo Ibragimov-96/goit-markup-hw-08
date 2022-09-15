@@ -5,6 +5,12 @@
   .portfolio {
     padding-top: 94px;
     padding-bottom: 94px;
+    @media screen and(max-width: $desctop){
+      padding-top: 60px;
+    padding-bottom: 60px;
+    }
+      
+    
   }
   
   .portfolio__title {
@@ -33,6 +39,7 @@
     }
     @media screen and(max-width:$desctop) {
       flex-wrap: wrap;
+      margin-bottom: 30px;
     }
   }
   

@@ -9,8 +9,16 @@
       padding-top: 60px;
       padding-bottom:60px;
     }
+    @media screen and(min-width: $desctop){
+      padding-top: 94px;
+    padding-bottom: 94px;
+    }
   }
-  
+  .clients__title{
+    @media screen and(min-width: $desctop){
+     margin-bottom: 50px;
+    }
+  } 
   .client__list {
     margin-bottom: 0;
     margin-top: 0;
@@ -47,7 +55,9 @@
      &:hover,
      &:focus{
       color: var(--accent-color);}
-      
+      @media screen and(max-width: $tablet) {
+        width: 210px;
+      }
       @media screen and(min-width: $tablet) {
         width: 226px;
       }
@@ -57,11 +67,8 @@
       
   }
   
-.clients__title{
-  @media screen and(max-width: $tablet) {
-   padding: 30px;
-  }
-}
+
+
   
   .client__icon {
     display: block;

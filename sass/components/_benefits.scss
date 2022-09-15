@@ -33,7 +33,7 @@
     @media screen and(max-width: $tablet) {
       display:block;
       justify-content: center;
-     
+      & :not(:last-child){margin-bottom: 30px;}
     }
     @media screen and(min-width: $tablet) {
       flex-wrap: wrap;
@@ -49,7 +49,8 @@
     @media screen and(max-width: $tablet) {
       width: 100%;
       justify-content: center;
-        margin-bottom: 30px;
+      
+       & :not(:last-child){margin-bottom: 10px;} 
       
     }
     @media screen and(min-width:$tablet) {

@@ -1,5 +1,8 @@
 .section-hero {
-  max-width: 100%;
+  width: 100%;
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
   background-color: #2f303a;
   background-image: linear-gradient(
       rgba(47, 48, 58, 0.4),
@@ -13,6 +16,7 @@
   padding-bottom: 118px;
   text-align: center;
   @media screen and(min-width:$desctop) {
+   
     padding-top: 200px;
     padding-bottom: 200px;
     background-size: 1600px;
@@ -43,7 +47,7 @@
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
       ),
-      url("/images/mobile/hero2x.jpg");
+      url("../images/mobile/hero2x.jpg");
     }
   }
 }
@@ -57,7 +61,7 @@
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
       ),
-       url("/images/tablet/hero2x.jpg");
+       url("../images/tablet/hero2x.jpg");
     }
   }
 }
@@ -88,7 +92,7 @@
   font-size: 44px;
   line-height: 1.36;
   text-transform: uppercase;
-  @media screen and(max-width:$tablet) {
+  @media screen and(max-width:$desctop) {
     font-weight: 900;
     font-size: 26px;
     line-height: 1.62;
