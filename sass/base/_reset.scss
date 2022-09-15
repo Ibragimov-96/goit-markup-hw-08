@@ -1,0 +1,28 @@
+ul {
+    padding: 0;
+  
+    list-style: none;
+  }
+  a {
+    text-decoration: none;
+  }
+  img {
+    display: block;
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+  }
+  
+  .title {
+    // margin-top: 0;
+    // margin-bottom: 50px;
+    color: var(--title-text-color);
+  margin-top: 0;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1, 16;
+    text-align: center;
+    letter-spacing: 0.03em;
+  }
+  
+ 

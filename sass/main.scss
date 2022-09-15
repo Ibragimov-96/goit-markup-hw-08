@@ -1,0 +1,28 @@
+/* основа #757575*/
+/* второстепенный #212121*/
+/* фон #FFFFFF*/
+/* подсветка #2196F3*/
+
+@import "./base/normalise";
+
+/* header logo*/
+@import "./base/reset";
+@import "./utilits/vars";
+@import "./base/comon";
+@import"./components/header";
+/* hero */
+@import "./components/hero";
+// /* section benefits*/
+@import "./components/benefits";
+// /* studio */
+@import "./components/studio";
+// /* setion comand */
+@import "./components/comand";
+// /* clients */
+@import "./components/clients";
+// /* foter */
+@import "./components/footer";
+// /* portfolio */
+@import "./components/portfolio";
+ @import "./components/project";
+ @import "./components/modal";

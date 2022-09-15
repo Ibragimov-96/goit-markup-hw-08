@@ -1,0 +1,32 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  color: var(--primari-text-color);
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.03em;
+  &.scrol-lock{
+    overflow: hidden;
+  }
+}
+
+.container {
+    max-width: 480px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+
+
+    @media screen and(min-width: $tablet) {
+      max-width:768px;
+  }
+
+   @media screen and(min-width: $desctop){
+    min-width: 1200px;
+      }
+    
+  }

@@ -1,0 +1,127 @@
+.section-comand {
+   
+    background-color: var(--secondary-bg-color);
+    text-align: center;
+    @media screen and(max-width: $tablet){
+      padding-top: 60px;
+    padding-bottom: 60px;
+    }
+    @media screen and(min-width: $tablet){
+      padding-top: 60px;
+    padding-bottom: 60px;
+    }
+   
+  }
+.section-comand__title {
+margin-top: 0;
+margin-bottom: 50px;
+  font-weight: 700;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--title-text-color);
+@media screen and(max-width: $tablet){
+margin-bottom: 30px;
+}
+}
+
+  .section-comand__list {
+    display: flex;
+    margin-bottom: 0;
+    margin-top: 0;
+    flex-basis: calc((100% - 30px * 3) / 4);
+    gap: 30px;
+    @media screen and(max-width: $tablet){
+      width: 100%;
+      display: block;
+      justify-content: center;
+    }
+  
+    @media screen  and(min-width:$tablet){
+  
+      flex-wrap: wrap;
+    }
+   
+  }
+  
+  
+  .section-comand__iten {
+    width: 270px;
+    background-color: var(--primari-white-color);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+      0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+    
+    @media screen and(max-width: $tablet) {
+  width: 100%;
+      justify-content: center;
+      margin-bottom: 30px;
+    }
+    @media screen and(min-width:$tablet){
+      width: 354px;
+    }
+    @media screen and(min-width:$desctop){
+      width: 270px;
+    }
+  }
+  
+  .section-comand__information {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  
+  .section-comand__name {
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+  }
+  
+  .section-comand__paragraph {
+    margin-top: 0;
+    margin-bottom: 16px;
+    color: var(--primari-text-color);
+  
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 0.84;
+    text-align: center;
+    letter-spacing: 0.03em;
+  }
+  
+  .section-comand__networks {
+    display: flex;
+    justify-content: center;
+    fill: currentColor;
+    gap: 10px;
+  }
+  
+  .section-comand__link {
+    display: flex;
+    color: #afb1b8;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: background-color 250ms var(--cubik), color 250ms var(--cubik),
+      border-radius 250ms var(--cubik);
+      &:hover,
+      &:focus{
+        color: white;
+        background-color: var(--accent-color);
+      }
+  }
+  
+  
+  
+  .section-comand__icon {
+    fill: currentColor;
+    display: block;
+  }
